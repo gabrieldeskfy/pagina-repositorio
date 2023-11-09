@@ -1,0 +1,49 @@
+:root {
+   --cor-principal: blue;
+}
+
+body {
+    background: rgb(10, 10, 63);
+}
+
+.profile-image img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid var(--cor-principal);
+}
+
+.container {
+    text-align: center;
+}
+
+.profile-info {
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilização da lista */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Estilização dos ícones */
+ion-icon {
+    color: white;
+}
+
+/* Remover traço abaixo dos links */
+a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
